@@ -1,0 +1,70 @@
+#single-line{
+
+    display: flex;
+}
+
+.align{
+
+    width: 79rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#single-line li{
+
+    margin-right: 30px;
+    color: white;
+}
+
+nav{
+
+    top: 0px;
+    position: fixed;
+    background-color: green;
+    border-radius: 8px;
+}
+
+#type{
+
+    
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    width: 8rem;
+    background-color: burlywood;
+}
+
+#season{
+   
+
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    width: 8rem;
+    background-color: burlywood;
+    
+    
+
+}
+
+#location{
+
+
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    width: 8rem;
+    background-color: burlywood;
+    
+}
+
+#Flowering{
+
+    
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    width: 8rem;
+    background-color: burlywood;
+}

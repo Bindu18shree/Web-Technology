@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function chair(company) {
+            console.log("this is chair function")
+            console.warn("this is a warning")
+            console.error("this is error")
+            console.log(company)
+            console.count()
+            //console.clear()
+        }
+        chair("neelkamal");
+
+
+        function mathematicalOperation(a, b) {
+            console.log("A value is" + a + "datatype is" + typeof (a) + "B value is" + b)
+            var sum = a + b;
+            console.log(sum)
+        }
+        mathematicalOperation(10, 20)
+
+
+        function mathematicalOperation1(c, d) {
+            console.log("C value is" + c + "datatype is" + typeof (c) + "D value is" + d)
+            var diff = c - d;
+            console.log(diff)
+        }
+        mathematicalOperation1(40, 20)
+
+
+        function mathematicalOperation2(c, d) {
+            console.log("C value is" + c + "datatype is" + typeof (c) + "D value is" + d)
+            var mul = c * d;
+            console.log(mul)
+        }
+        mathematicalOperation2(10, 20)
+
+        function mathematicalOperation3(c, d) {
+            console.log("C value is" + c + "datatype is" + typeof (c) + "D value is" + d)
+            var div = c / d;
+            console.log(div)
+        }
+        mathematicalOperation3(40, 20);
+
+
+        function mathematicalOperation4(c, d) {
+            console.log("C value is" + c + "datatype is" + typeof (c) + "D value is" + d)
+            var mod = c % d;
+            console.log(mod)
+        }
+        mathematicalOperation4(10, 20);
+
+
+        (function () {
+            console.log("This is anonymous function")
+        }())
+
+        var brand = () => {
+            console.log("This is arrow function")
+        }
+
+        brand();
+
+    </script>
+</body>
+
+</html>

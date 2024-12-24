@@ -1,0 +1,26 @@
+#single-line{
+
+    display: flex;
+}
+
+.navbar{
+
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#single-line li{
+
+    color: black;
+    margin-right: 30px;
+
+}
+
+nav{
+
+    top: 0px;
+    position: fixed;
+    background-color: bisque;
+}

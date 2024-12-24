@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-workz</title>
+</head>
+<body>
+
+    <form action="display.html" onsubmit="return handleValidation(event) ">
+
+        <label >Enter User Name</label> <br>
+
+        <input type="text" placeholder="Enter user Name" name="user name" id="name"> <br>
+
+        <span id="UserNameError"></span>
+
+        <label>Enter your Email</label> <br>
+
+        <input type="text" placeholder="Enter your email" name="email" id="email"> <br>
+
+        <label>Contact Number</label><br>
+
+        <input type="number" name="contact number" id="number"> <br>
+
+        <span id="contactNumberError"></span>
+
+        <button type="submit">Register</button>
+    </form>
+    
+
+
+    <script src="./formValidation.js"></script>
+</body>
+</html>

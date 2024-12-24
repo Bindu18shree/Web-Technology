@@ -1,0 +1,25 @@
+#single-line{
+
+    display: flex;
+}
+
+.align{
+
+    width: 79rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#single-line li{
+
+    margin-right: 30px;
+    color: white;
+}
+
+nav{
+
+    top: 0px;
+    position: fixed;
+    background-color: darkmagenta;
+}

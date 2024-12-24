@@ -1,0 +1,25 @@
+#single-line{
+
+    display: flex;
+}
+
+.align{
+
+    width: 79rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#single-line li{
+
+    margin-right: 30px;
+    color: black;
+}
+
+nav{
+
+    top: 0px;
+    position: fixed;
+    background-color: peru;
+}

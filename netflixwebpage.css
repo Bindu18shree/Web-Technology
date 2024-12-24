@@ -1,0 +1,120 @@
+body{
+
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    
+}
+
+
+#logo{
+
+    width: 15%;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    
+
+}
+
+#button{
+
+    padding: 8px 15px;
+    background-color:red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-right: 20px;
+    
+
+}
+
+#image{
+
+    
+    padding-top: 5px;
+    padding-left: 30px;
+    height: 40px;
+    margin-right: 300px;
+
+
+}
+
+#language{
+
+    padding: 8px 15px;
+    text-align: right;
+    margin-top: 0px;
+    
+
+    
+    
+}
+
+
+#text{
+
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#paragraph1{
+
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#paragraph2{
+
+    color: white;
+    text-align: center;
+}
+
+#email-form{
+
+    text-align: center;
+    
+    
+    
+}
+
+#email{
+
+    background-color: black;
+    padding: 10px;
+    border: none;
+    color: white;
+    size: "50";
+    border-radius: 4px;
+    width: 20rem;
+    height: 30px;
+}
+
+#getstarted-button{
+
+    background-color: red;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    width: 8rem;
+    height: 50px;
+    margin-right: 20px;
+}
+
+#option{
+
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+ #items{
+
+    align-items: center;
+    display: flex;
+ }

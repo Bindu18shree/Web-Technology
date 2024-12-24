@@ -1,0 +1,113 @@
+h1{
+    color: brown;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    color: brown;
+    text-align: end;
+    text-transform: capitalize;
+}
+
+p{
+    line-height: 2 rem;
+    text-align: justify;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#good-day{
+
+    text-transform: uppercase;
+}
+
+#increase{
+
+    font-size: 60px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#paragraph{
+
+    color: black;
+    border: 2px dashed black;
+    height: 250px;
+    width: 250px;
+    overflow: scroll;
+    padding: 20px;
+}
+
+#box{
+
+    padding: 10px;
+    border: 2px dotted blue;
+    margin-left: 50px;
+}
+
+
+#create-box{
+
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    margin-bottom: 50px;
+    background-color: cyan;
+}
+
+a:link{
+
+    color: hotpink;
+}
+
+a:hover{
+
+    color: lawngreen;
+}
+
+a:active{
+
+    color: darkgreen;
+}
+
+a:visited{
+
+    color: burlywood;
+}
+
+#single-line{
+
+    display: flex;
+}
+
+.align{
+
+    width: 78rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#single-line li{
+
+    margin-right: 7px;
+}
+
+nav{
+
+    top: 0px;
+    position: fixed;
+    background-color: burlywood;
+}
+

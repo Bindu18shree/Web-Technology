@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>x-workx</title>
+</head>
+<body>
+    
+    <h1>All feilds are correct</h1>
+
+    <h3>Username : </h3> <span id="name"></span> <br>
+    <h3>email : </h3> <span id="emailId"></span> <br>
+    <h3>contactNumber : </h3> <span id="contact"></span> <br>
+
+
+
+
+    <script>
+
+        let getData = localStorage.getItem("userDetails")
+        console.log(getData);
+
+        let jsonData = JSON.parse(getData)
+        console.log(jsonData);
+
+        document.getElementById("name").innerHTML = jsonData.userName
+        document.getElementById("emailId").innerHTML = jsonData.email
+        document.getElementById("contact").innerHTML = jsonData.contactNumber
+    </script>
+</body>
+</html>
